@@ -6,7 +6,7 @@
 #include <sys/wait.h>
 #include <ctype.h>
 #include "common.h"
-#define MAX_TEAMS 300
+#define MAX_TEAMS 500
 #define MAX_SIMULATIONS 1000
 
 
