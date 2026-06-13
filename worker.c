@@ -10,7 +10,7 @@ double get_random_double() {
 }
 
 void run_worker(int read_fd, int write_fd, int worker_id) {
-    srand(time(NULL)); // seed random number generator with unique value
+    srand(time(NULL) ^ getpid()); // seed random number generator with unique value
 
     SimulationTask task;
 
